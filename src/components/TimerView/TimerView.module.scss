@@ -1,0 +1,32 @@
+.timer {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.timerTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timerHours,
+.timerMinutes,
+.timerSeconds {
+  font-size: 36px;
+  margin: 0 10px;
+}
+
+.timerHours {
+  color: #0099ff; /* синий цвет для часов */
+}
+
+.timerMinutes {
+  color: #ff9900; /* оранжевый цвет для минут */
+}
+
+.timerSeconds {
+  color: #33cc33; /* зеленый цвет для секунд */
+}

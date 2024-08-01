@@ -1,0 +1,27 @@
+.contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 10px;
+  overflow: hidden;
+  height: 100%;
+
+  .controlTimer,
+  .listTimer {
+    height: 50%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    border-bottom: 1px solid #cbcbcc;
+    padding: 10px 0;
+  }
+
+  .itemTracer {
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    padding: 10px;
+    margin: 10px;
+  }
+}

@@ -1,0 +1,21 @@
+.wrapperApp {
+  section {
+    height: 100vh;
+  }
+  main {
+    overflow: hidden;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7fa;
+    padding: 0 10px;
+
+    nav {
+      & > a {
+        cursor: pointer;
+      }
+    }
+  }
+}

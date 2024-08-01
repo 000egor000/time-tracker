@@ -15,7 +15,7 @@ import { Emoji } from "./components/Emoji";
 import { ButtonWithTooltip } from "./components/ButtonWithTooltip";
 
 const TrackerConfig = () => {
-  const { time, description, defaultTime } = tooltipData;
+  const { time, description, defaultTime, tooltip } = tooltipData;
 
   return (
     <div className={styles.groupBtn}>
@@ -52,9 +52,9 @@ const TrackerConfig = () => {
       </InputGroup>
 
       <ButtonToolbar className={styles.ButtonToolbar}>
-        <ButtonWithTooltip icon={<OneColumn />} tooltip="Стоп!" />
-        <ButtonWithTooltip icon={<PauseOutline />} tooltip="Пауза!" />
-        <ButtonWithTooltip icon={<PlayOutline />} tooltip="Старт!" />
+        <ButtonWithTooltip icon={<OneColumn />} tooltip={tooltip.STOP} />
+        <ButtonWithTooltip icon={<PauseOutline />} tooltip={tooltip.PAUSE} />
+        <ButtonWithTooltip icon={<PlayOutline />} tooltip={tooltip.START} />
       </ButtonToolbar>
     </div>
   );

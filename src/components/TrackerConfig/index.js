@@ -1,0 +1,1 @@
+export { default as TrackerConfig } from "./TrackerConfig";

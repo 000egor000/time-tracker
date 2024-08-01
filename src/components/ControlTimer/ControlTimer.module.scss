@@ -1,0 +1,14 @@
+.groupBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+
+  span {
+    cursor: help;
+  }
+}
+.ButtonToolbar,
+.InputGroup {
+  margin: 0 10px;
+}
